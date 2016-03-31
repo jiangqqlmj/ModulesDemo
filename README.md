@@ -1,0 +1,2 @@
+# NativeModules1
+初步介绍React Native开发中Android原生组件封装方法，让JavaScript进行调用
