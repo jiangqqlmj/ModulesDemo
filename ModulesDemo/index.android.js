@@ -10,6 +10,7 @@ import React, {
   Text,
   View,
   TouchableHighlight,
+  ToastAndroid,
 } from 'react-native';
 var { NativeModules } = require('react-native');
 class CustomButton extends React.Component {
@@ -24,6 +25,7 @@ class CustomButton extends React.Component {
     );
   }
 }
+//onPress={()=>NativeModules.ToastCustomAndroid.show("我是ToastCustomAndroid弹出消息",NativeModules.ToastCustomAndroid.SHORT)}
 class ModulesDemo extends Component {
   render() {
     return (
@@ -33,7 +35,12 @@ class ModulesDemo extends Component {
         </Text>
         <CustomButton
           text="点击弹出Toast消息"
-          onPress={()=>NativeModules.ToastCustomAndroid.show("我是ToastCustomAndroid弹出消息",NativeModules.ToastCustomAndroid.SHORT)}
+          onPress={()=>NativeModules.ToastCustomAndroid.measureLayout((msg) => {
+                    console.log(msg);
+                  },
+                   (x, y, width, height) => {
+                    console.log(x + '坐标,' + y + '坐标,' + width + '宽,' + height+'高');
+                  })}
         />
       </View>
     );
