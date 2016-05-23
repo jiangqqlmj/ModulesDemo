@@ -10,3 +10,6 @@
 1.clone项目</br>
 2.切换到主项目然后npm install</br>
 3.最好使用xcode打开ios项目 然后xcode run项目即可
+
+###运行效果图
+<img src="https://github.com/jiangqqlmj/ModulesDemo/blob/master/react_native_ios.gif"/>
