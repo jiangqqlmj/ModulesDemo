@@ -35,6 +35,16 @@ class ModulesDemo extends Component {
         <CustomButton text="点击调用原生模块addEvent方法"
             onPress={()=>CalendarManager.addEvent('生日聚会', '江苏南通 中天路')}
         />
+        <CustomButton text="点击调用原生模块addEvent方法"
+            onPress={()=>CalendarManager.addEventMoreDate('生日聚会', '江苏南通 中天路',1463987752)}
+        />
+        <CustomButton text="调用原生模块addEvent方法-传入字段格式"
+            onPress={()=>CalendarManager.addEventMoreDetails('生日聚会', {
+              location:'江苏 南通市 中天路',
+              time:1463987752,
+              description:'请一定准时来哦~'
+            })}
+        />
       </View>
     );
   }
