@@ -26,6 +26,12 @@ class CustomButton extends React.Component {
   }
 }
 class ModulesDemo extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+        events:'',
+    }
+  }
   render() {
     return (
       <View style={{marginTop:20}}>
@@ -35,15 +41,28 @@ class ModulesDemo extends Component {
         <CustomButton text="点击调用原生模块addEvent方法"
             onPress={()=>CalendarManager.addEvent('生日聚会', '江苏南通 中天路')}
         />
-        <CustomButton text="点击调用原生模块addEvent方法"
+        <CustomButton text="点击调用原生模块addEventMoreDate方法"
             onPress={()=>CalendarManager.addEventMoreDate('生日聚会', '江苏南通 中天路',1463987752)}
         />
-        <CustomButton text="调用原生模块addEvent方法-传入字段格式"
+        <CustomButton text="调用原生模块addEventMoreDetails方法-传入字段格式"
             onPress={()=>CalendarManager.addEventMoreDetails('生日聚会', {
               location:'江苏 南通市 中天路',
               time:1463987752,
               description:'请一定准时来哦~'
             })}
+        />
+        <Text style={{marginLeft:5}}>
+          'Callback的返回数据为:'+{this.state.events}
+        </Text>
+        <CustomButton text="点击调用原生模块findEvents方法-Callback"
+            onPress={()=>CalendarManager.findEvents((error,events)=>{
+                if(error){
+                  console.error(error);
+                }else{
+                  this.setState({events:events,});
+                }
+              }
+            )}
         />
       </View>
     );

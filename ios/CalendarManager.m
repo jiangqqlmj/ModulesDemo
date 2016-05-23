@@ -41,4 +41,11 @@ RCT_EXPORT_METHOD(addEventMoreDetails:(NSString *)name details:(NSDictionary *) 
   NSLog(@"获取的事件信息:%@,地点:%@,时间:%@,备注信息:%@",name,location,time,description);
   
 }
+
+//对外提供调用方法,演示Callback
+RCT_EXPORT_METHOD(findEvents:(RCTResponseSenderBlock)callback)
+{
+   NSArray *events=@[@"张三",@"李四",@"王五"];
+   callback(@[[NSNull null],events]);
+}
 @end
