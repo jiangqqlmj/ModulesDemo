@@ -32,6 +32,15 @@ class ModulesDemo extends Component {
         events:'',
     }
   }
+  //获取Promise对象处理
+  async _updateEvents(){
+    try{
+        var events=await CalendarManager.findEventsPromise();
+        this.setState({events});
+    }catch(e){
+        console.error(e);
+    }
+  }
   render() {
     return (
       <View style={{marginTop:20}}>
@@ -64,6 +73,19 @@ class ModulesDemo extends Component {
               }
             )}
         />
+        <CustomButton text="点击调用原生模块findEventsPromise方法-Callback"
+            onPress={()=>CalendarManager.findEvents((error,events)=>{
+                if(error){
+                  console.error(error);
+                }else{
+                  this.setState({events:events,});
+                }
+              }
+            )}
+        />
+        <Text style={{marginLeft:5}}>
+          '静态数据为:'+{CalendarManager.firstDayOfTheWeek}
+        </Text>
       </View>
     );
   }

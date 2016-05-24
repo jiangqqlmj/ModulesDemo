@@ -48,4 +48,34 @@ RCT_EXPORT_METHOD(findEvents:(RCTResponseSenderBlock)callback)
    NSArray *events=@[@"张三",@"李四",@"王五"];
    callback(@[[NSNull null],events]);
 }
+
+//对外提供调用方法,演示Promise使用
+RCT_REMAP_METHOD(findEventsPromise,
+                 resolver:(RCTPromiseResolveBlock)resolve
+                 rejecter:(RCTPromiseRejectBlock)reject)
+{
+  NSArray *events =@[@"张三",@"李四",@"王五",@"赵六"];
+  if (events) {
+    resolve(events);
+  } else {
+    NSError *error=[NSError errorWithDomain:@"我是Promise回调错误信息..." code:101 userInfo:nil];
+    reject(@"no_events", @"There were no events", error);
+  }
+}
+
+//对外提供调用方法,演示Thread使用
+RCT_EXPORT_METHOD(doSomethingExpensive:(NSString *)param callback:(RCTResponseSenderBlock)callback)
+{
+  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    // 在后台执行耗时操作
+    // You can invoke callback from any thread/queue
+    callback(@[[NSNull null],@"耗时操作执行完成..."]);
+  });
+}
+
+//进行设置封装常量给JavaScript进行调用
+-(NSDictionary *)constantsToExport{
+  return @{@"firstDayOfTheWeek":@"Monday"};
+}
+
 @end
