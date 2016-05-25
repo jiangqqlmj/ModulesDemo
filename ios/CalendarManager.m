@@ -8,7 +8,13 @@
 
 #import "CalendarManager.h"
 #import "RCTConvert.h"
+#import "RCTBridge.h"
+#import "RCTEventDispatcher.h"
+
 @implementation CalendarManager
+
+@synthesize bridge=_bridge;
+
 //默认名称
 RCT_EXPORT_MODULE()
 //对外提供调用方法
@@ -77,5 +83,15 @@ RCT_EXPORT_METHOD(doSomethingExpensive:(NSString *)param callback:(RCTResponseSe
 -(NSDictionary *)constantsToExport{
   return @{@"firstDayOfTheWeek":@"Monday"};
 }
+//进行触发发送通知事件
+RCT_EXPORT_METHOD(sendNotification:(NSString *)name){
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(calendarEventReminderReceived:) name:nil object:nil];
+}
 
+//进行设置发送事件通知给JavaScript端
+- (void)calendarEventReminderReceived:(NSNotification *)notification
+{
+  [self.bridge.eventDispatcher sendAppEventWithName:@"EventReminder"
+                                               body:@{@"name": @"张三"}];
+}
 @end

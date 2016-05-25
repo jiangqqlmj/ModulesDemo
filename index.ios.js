@@ -12,6 +12,8 @@ import React,{
 } from 'react-native';
 ///进行导入NativeModules中的CalendarManger模块
 import { NativeModules } from 'react-native';
+import { NativeAppEventEmitter } from 'react-native';
+var subscription;
 var CalendarManager = NativeModules.CalendarManager;
 class CustomButton extends React.Component {
   render() {
@@ -30,7 +32,18 @@ class ModulesDemo extends Component {
     super(props);
     this.state={
         events:'',
+        notice:'',
     }
+  }
+  componentDidMount(){
+    console.log('开始订阅通知...');
+    subscription = NativeAppEventEmitter.addListener(
+         'EventReminder',
+          (reminder) => console.log('通知信息:'+reminder.name)
+         );
+  }
+  componentWillUnmount(){
+     subscription.remove();
   }
   //获取Promise对象处理
   async _updateEvents(){
@@ -73,7 +86,7 @@ class ModulesDemo extends Component {
               }
             )}
         />
-        <CustomButton text="点击调用原生模块findEventsPromise方法-Callback"
+        <CustomButton text="点击调用原生模块findEventsPromise方法-Promise"
             onPress={()=>CalendarManager.findEvents((error,events)=>{
                 if(error){
                   console.error(error);
@@ -86,6 +99,12 @@ class ModulesDemo extends Component {
         <Text style={{marginLeft:5}}>
           '静态数据为:'+{CalendarManager.firstDayOfTheWeek}
         </Text>
+        <Text style={{marginLeft:5}}>
+          '发送通知信息:'+{this.state.notice}
+        </Text>
+        <CustomButton text="点击调用原生模块sendNotification方法"
+            onPress={()=>CalendarManager.sendNotification('准备发送通知...')}
+        />
       </View>
     );
   }
