@@ -13,3 +13,5 @@
 
 ###运行效果图
 <img src="https://github.com/jiangqqlmj/ModulesDemo/blob/master/react_native_ios.gif"/>
+
+<img src="https://github.com/jiangqqlmj/ModulesDemo/blob/master/react_native_ios_texing_2.gif"/>

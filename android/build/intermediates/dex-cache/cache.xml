@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-e598bdc3385eb8f78603045776ff3f213bb4971d.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-9fe20f974a360765ce85f55ff7aa9e16d1b79d02.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp/1.2.0/6c5c9380e245c4ff5be2b2a49dcbb0200c39798e/stetho-okhttp-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/stetho-okhttp-1.2.0-d23bd7fff9fb0aa9a7cb93de5c80f7d639e7f45b.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-6fa5c3002f3e49f7acedd2d1b4bb79a910e2c5ee.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-000b8d80c1542c90ac7f61db010bff95f2715c4a.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-388b4df19d3e08c1e7c7212193f3fd96cbcae8ac.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-721d0425d2d04015a32feb1508097e69e26ef0fe.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-59ff3f8393c2cb8ff36700d134e6b6a908eaace1.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-443d225c512e8571a12eabc2fb99bcdf195e5e01.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-88d0b6010512afa5b493e711b71bd97cd10c10df.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-ec00e20f4dd08091d480df9357f1706ad3ce1103.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-d62b47a1024e13d1953349aebed842bf41abfa6f.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-4ab90c7a763eb63a6e970845ef24dc4760436998.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-25311a3653187efc11aafecdb8314db95c9dd5df.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0cc39db3c06f47dee223c382f78e2bff90b74274">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-97af1a87930e3b08c1574ef6826823fce79a8812.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-ace0b8e415dcfc2e7955b4a1a4924ff738d1b83b.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.2.0/1d6cdb8ce8185b8b23213fad48a83987fb6d2d67/stetho-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/stetho-1.2.0-7e966a4ef37ef164d0b232d557bbd1dfcbbcda8e.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-6d2abac33a08de351a29879cae9832b2f7482ab1.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b2f15bec1db9a9fddabbc29cf0172333040d7d7">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/classes-adae0b56df791a438b64bc125d82c3042bdb727a.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-bd432c612ca1cdac083372a7f3c951729bc4ff97.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-45f644ddcd086ee3dd10fb8907336bdcd4da3064.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/jiangqq/Documents/OSChina_PP/ModulesDemo/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-1c9af486a46dac29a352a8be8f00673ecc4b8cff.jar" />
+    </item>
+
+</items>

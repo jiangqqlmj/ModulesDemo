@@ -34,7 +34,11 @@ class ModulesDemo extends Component {
           自定义弹出Toast消息
         </Text>
         <CustomButton
-          text="点击弹出Toast消息"
+           text="点击自定义Toast方法"
+           onPress={()=>NativeModules.ToastCustomAndroid.show("我是ToastCustomAndroid弹出消息",NativeModules.ToastCustomAndroid.SHORT)}
+        />
+        <CustomButton 
+          text="点击测试封装方法"
           onPress={()=>NativeModules.ToastCustomAndroid.measureLayout((msg) => {
                     console.log(msg);
                   },
