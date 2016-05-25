@@ -12,6 +12,6 @@
 3.最好使用xcode打开ios项目 然后xcode run项目即可
 
 ###运行效果图
-<img src="https://github.com/jiangqqlmj/ModulesDemo/blob/master/react_native_ios.gif"/>
-
+<img src="https://github.com/jiangqqlmj/ModulesDemo/blob/master/react_native_ios_texing_1.gif"/>
+</br>
 <img src="https://github.com/jiangqqlmj/ModulesDemo/blob/master/react_native_ios_texing_2.gif"/>
